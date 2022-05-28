@@ -1,0 +1,37 @@
+//PROGRAM TO READ TIME IN HH:MM:SS FORMAT AND CONVERT INTO TOTAL SECONDS USING CLASS
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+class time;
+{
+private;
+   int seconds;
+   int hh,mm,ss;
+public;
+   void get time(void);
+   void convert into seconds(void);
+   void display time (void);
+};
+   void time::get time(void);
+   {
+     cout<<"enter time :"<<endl;
+     cout<<"hours?"; 
+     cin>>hh;
+     
+     cout<<"minutes?";
+     cin>>mm;
+     
+     cout<<"seconds?";
+     cin>>ss;
+    }
+    void time::convert into seconds(void)
+    {
+    seconds=hh"3600+mm"60+ss;
+    }
+    void time::display time(void)
+    {
+    cout<<"the time is="<<setw(2)<<SETfill('0')<<hh<<":";
+    return 0;
+ }
+     
